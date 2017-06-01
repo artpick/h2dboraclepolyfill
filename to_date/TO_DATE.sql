@@ -1,3 +1,4 @@
+-- TO_DATE FOR ORACLE SUPPORT
 CREATE ALIAS TO_DATE AS $$
 java.util.Date toDate(final String dateStringValue, final String pattern) {
   try{
